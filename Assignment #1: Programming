@@ -1,0 +1,35 @@
+Assignment: Programming Review
+Q1. 
+    3. Do any of your findings surprise you?
+      I was surprised that a Data Scientist made more money than an Accountant. I had assumed that Accountants made more
+      money because their work is very important and essential. Everyone needs accounting. However, with the rise of 
+      AI and the advancement in technologies, I can see why the need for Data Scientists is on the rise. 
+    4. From best to worst: Human Resources Manager, Information Security Analysts, Data Scientist, Personal Finance Advisor, 
+       Digital Designer, Project Management Specialist, Financial Analyst, Accountant, Lawyer. I chose Human Resources 
+      Manager as the best because it pays well and they get to travel, which is something I'm looking for in a job. I 
+      chose the next three because they pay well and they seem interesting. The reason I put Digital Designer above 
+      Project Management Specialist despite it paying less is because the work seemed more interesting. I put Lawyer last
+      despite it paying the most because it seems like it would take a long time to complete and the work itself seems boring. 
+Q2. 
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Parts 1 to 4
+x = np.linspace(0,1,50)
+y = np.log(x)
+z = np.exp(x)
+plt.scatter(x,y)
+plt.scatter(x,z)
+plt.show()
+
+# Parts 6, 7
+x = np.linspace(0,1,50)
+y = np.log(x)
+z = np.exp(x)
+plt.scatter(x,y, label ='Natural Log')
+plt.scatter(x,z, label='Exponential')
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.legend(loc='lower right')
+plt.title('Natural Log and Exponential Functions')
+plt.show()
